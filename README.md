@@ -20,7 +20,7 @@ Make sure you have .NET Core 2.2 as part of your install (2.1 LTS will work fine
 
 Run the application on Visual Studio using IIS Express. 
 
-This will make the API accessible at http://localhost:44300/api/users
+This will make the API accessible at http://localhost:44300/api/
 
 
 # What you can "Do" with the application?

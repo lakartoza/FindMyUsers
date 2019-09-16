@@ -12,6 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Controllers\README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
