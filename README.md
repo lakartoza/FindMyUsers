@@ -40,7 +40,7 @@ The application allows you to save and delete users to a database, but is withou
 
 
 
-## Postman? 
+## What is Postman? 
 ![Postman icon](https://assets.getpostman.com/common-share/postman-logo-horizontal-white.svg)
 Postman provides a convenient interface to call APIs, run tests and persists your arguments in a beautified box, so you don't lose what you were typing when switching between APIs.
 
@@ -81,6 +81,11 @@ Assuming the application has been ran on VS using IIS, go ahead and run the `GET
 > `POST New User` creates a new user in the database.
 
 > ...
+
+If successful, you will see a `Status: 200` response.
+> If unsuccessful, make sure the localhost:{PortNumber} matches what the Postman is trying to reach.
+
+![Status200](https://i.imgur.com/vbSriuD.png)
 
 
 ## API Tests
