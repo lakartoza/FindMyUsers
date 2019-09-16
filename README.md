@@ -29,6 +29,7 @@ The application allows you to save and delete users to a database, but is withou
 
 ## Checkout the overview documentation
 
+![Postman Web Documentation](https://i.imgur.com/51AKnBL.png)
 
 1. [Follow this Postman link to be invited into the project's API collections](https://app.getpostman.com/join-team?invite_code=4bb20642af835a89d5f6d32f6eca676b)
 
@@ -43,24 +44,30 @@ The application allows you to save and delete users to a database, but is withou
 ![Postman icon](https://assets.getpostman.com/common-share/postman-logo-horizontal-white.svg)
 Postman provides a convenient interface to call APIs, run tests and persists your arguments in a beautified box, so you don't lose what you were typing when switching between APIs.
 
-## Is there more? 
-> You can only view the documentation in the online interface, download the Postman app next!
+## How can I call the endpoints from here? 
+
+The API will respond on Localhost. To have a convenient way to call the API and to use our API layer tests we'll use the Postman app next!
 
 **Be sure to [download the app](https://www.getpostman.com/downloads/) to proceed.**
 We will use Postman to run our tests and interact with the application.
 
 ## Setting up the testing environment
 
-So that you can run the tests, and have a convenient place from which call the database, we need to set up your local testing environment.
+So that you can run the tests, and have a convenient place from which call the database, we need to set up your local testing environment on Postman.
 
 Now that you have Postman installed,
 
-1. Log in and find the Users Collections in the Team Workspace 
+1. Log in 
 
-2. Set the Environment. On the top left, Select the Environment to `Development` to set the variables. This allows the tests to run properly.
+2. Find the Users Collections in the Team Workspace.
+
+![Select Teamworkspaces](https://i.imgur.com/CejA60I.png)
+
+3. Set the Environment. On the top left, Select the Environment to `Development` to set the variables. This allows the tests to run properly.
+
 ![Set Environment App Image](https://i.imgur.com/y3v2CuN.png)
 
-3. Turn off your SSL certificate verification in Settings. (Turn this on again after you've using the application!)
+4. Turn off your SSL certificate verification in Settings. (Turn this on again after you've using the application!)
 
 
 ## Running your first test!
@@ -82,6 +89,7 @@ When you have `POST New User` selected, you will notice that theres a *Tests* ta
 
 Written in javascript, to see the results of the tests attempt to create the user, and review the Response section.
 
+> If any of the tests fail, make sure you have the environment selected to "Development" at the top.
+
 ![Tests successful Image](https://i.imgur.com/pxPxa7w.png)
 
-> If any of the tests fail, make sure you have the environment selected to "Development" at the top.
