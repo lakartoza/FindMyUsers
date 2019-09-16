@@ -1,0 +1,14 @@
+C:\Users\lakartoza\source\repos\FindMyUsers\FindMyUsers\bin\Debug\netcoreapp2.1\FindMyUsers.deps.json
+C:\Users\lakartoza\source\repos\FindMyUsers\FindMyUsers\bin\Debug\netcoreapp2.1\FindMyUsers.runtimeconfig.json
+C:\Users\lakartoza\source\repos\FindMyUsers\FindMyUsers\bin\Debug\netcoreapp2.1\FindMyUsers.runtimeconfig.dev.json
+C:\Users\lakartoza\source\repos\FindMyUsers\FindMyUsers\bin\Debug\netcoreapp2.1\FindMyUsers.dll
+C:\Users\lakartoza\source\repos\FindMyUsers\FindMyUsers\bin\Debug\netcoreapp2.1\FindMyUsers.pdb
+C:\Users\lakartoza\source\repos\FindMyUsers\FindMyUsers\obj\Debug\netcoreapp2.1\FindMyUsers.csprojAssemblyReference.cache
+C:\Users\lakartoza\source\repos\FindMyUsers\FindMyUsers\obj\Debug\netcoreapp2.1\FindMyUsers.csproj.CoreCompileInputs.cache
+C:\Users\lakartoza\source\repos\FindMyUsers\FindMyUsers\obj\Debug\netcoreapp2.1\FindMyUsers.RazorAssemblyInfo.cache
+C:\Users\lakartoza\source\repos\FindMyUsers\FindMyUsers\obj\Debug\netcoreapp2.1\FindMyUsers.RazorAssemblyInfo.cs
+C:\Users\lakartoza\source\repos\FindMyUsers\FindMyUsers\obj\Debug\netcoreapp2.1\FindMyUsers.AssemblyInfoInputs.cache
+C:\Users\lakartoza\source\repos\FindMyUsers\FindMyUsers\obj\Debug\netcoreapp2.1\FindMyUsers.AssemblyInfo.cs
+C:\Users\lakartoza\source\repos\FindMyUsers\FindMyUsers\obj\Debug\netcoreapp2.1\FindMyUsers.RazorTargetAssemblyInfo.cache
+C:\Users\lakartoza\source\repos\FindMyUsers\FindMyUsers\obj\Debug\netcoreapp2.1\FindMyUsers.dll
+C:\Users\lakartoza\source\repos\FindMyUsers\FindMyUsers\obj\Debug\netcoreapp2.1\FindMyUsers.pdb
