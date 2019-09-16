@@ -16,7 +16,7 @@ Make sure you have [Visual Studio installed.](https://visualstudio.microsoft.com
 
 Make sure you have .NET Core 2.2 as part of your install (2.1 LTS will work fine too).
 
-## 1.Turning on the API Layer
+## 1. Turning on the API Layer
 
 Run the application on Visual Studio using IIS Express. 
 
@@ -29,34 +29,38 @@ The application allows you to save and delete users to a database, but is withou
 
 ## Checkout the overview documentation
 
-```
+
 1. [Follow this Postman link to be invited into the project's API collections](https://app.getpostman.com/join-team?invite_code=4bb20642af835a89d5f6d32f6eca676b)
 
 2. Navigate to Team workspaces or [press this link](https://speeding-crater-8783.postman.co/collections/8805870-79a315fb-9f53-45e7-913e-0b067c42ff88?version=latest&workspace=05213688-04f5-4973-86ee-91f2be3e7826) to go there directly to view the documentation overview.
 
 3. On the top, Select the Environment to `Development` to set the variables
-![Set Environment Image](https://imgur.com/XfVBowh)
-```
+![Set Environment Image](https://i.imgur.com/XfVBowh.png)
+
 
 
 ## Postman? 
+![Postman icon](https://assets.getpostman.com/common-share/postman-logo-horizontal-white.svg)
 Postman provides a convenient interface to call APIs, run tests and persists your arguments in a beautified box, so you don't lose what you were typing when switching between APIs.
 
 ## Is there more? 
-> You can only view the documentation in the online interface.
+> You can only view the documentation in the online interface, download the Postman app next!
 
-We will use Postman to run our tests and interact with the application. **Be sure to [download the app](https://www.getpostman.com/downloads/) to proceed.**
+**Be sure to [download the app](https://www.getpostman.com/downloads/) to proceed.**
+We will use Postman to run our tests and interact with the application.
 
 ## Setting up the testing environment
 
 So that you can run the tests, and have a convenient place from which call the database, we need to set up your local testing environment.
 
-Now that you have Postman installed, and you're logged in: 
+Now that you have Postman installed,
 
-1. On the top left, Select the Environment to `Development` to set the variables. This allows the tests to run properly.
-![Set Environment App Image](https://imgur.com/y3v2CuN)
+1. Log in and find the Users Collections in the Team Workspace 
 
-2. Go to Settings and turn off your SSL certificate verification (Turn this on again after you've using the application!)
+2. Set the Environment. On the top left, Select the Environment to `Development` to set the variables. This allows the tests to run properly.
+![Set Environment App Image](https://i.imgur.com/y3v2CuN.png)
+
+3. Turn off your SSL certificate verification in Settings. (Turn this on again after you've using the application!)
 
 
 ## Running your first test!
@@ -78,6 +82,6 @@ When you have `POST New User` selected, you will notice that theres a *Tests* ta
 
 Written in javascript, to see the results of the tests attempt to create the user, and review the Response section.
 
-![Tests successful Image](https://imgur.com/pxPxa7w)
+![Tests successful Image](https://i.imgur.com/pxPxa7w.png)
 
 > If any of the tests fail, make sure you have the environment selected to "Development" at the top.
