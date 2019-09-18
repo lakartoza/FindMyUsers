@@ -12,5 +12,6 @@ namespace FindMyUsers.Models
         public string Last { get; set; }
         public string Interests { get; set; }
         public string City { get; set; }
+        //public int Age { get; set; }
     }
 }

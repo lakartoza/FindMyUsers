@@ -29,7 +29,8 @@ namespace FindMyUsers
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<UsersContext>(opt =>
-                opt.UseInMemoryDatabase("UserList")
+                //opt.UseInMemoryDatabase("UserList")
+                opt.UseSqlServer(Configuration.GetConnectionString("UsersContext"))
             );
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
@@ -45,6 +46,13 @@ namespace FindMyUsers
             {
                 app.UseHsts();
             }
+
+            using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
+            {
+                var context = serviceScope.ServiceProvider.GetRequiredService<UsersContext>();
+                context.Database.Migrate();
+            }
+
 
             app.UseHttpsRedirection();
             app.UseMvc();
