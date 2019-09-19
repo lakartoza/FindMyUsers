@@ -70,32 +70,31 @@ Now that you have Postman installed,
 
 4. Turn off your SSL certificate verification in Settings. (Turn this on again after you've using the application!)
 
+# API Integration Tests
 
-## Running your first test!
-
-Assuming the application has been ran on VS using IIS, go ahead and run the `GET Users` request. 
-
-> `GET Users` pulls all the users in the database.
-
-> `GET User by Id` pulls an individual user by the Id.
-
-> `POST New User` creates a new user in the database.
-
-> ...
-
-If successful, you will see a `Status: 200` response.
-> If unsuccessful, make sure the localhost:{PortNumber} matches what the Postman is trying to reach.
-
-![Status200](https://i.imgur.com/vbSriuD.png)
-
-
-## API Tests
-
-When you have `POST New User` selected, you will notice that theres a *Tests* tab. This shows the API tests that the application runs everytime its posted.
+When you have any request selected, you will notice that theres a *Tests* tab. This shows the API tests that the application runs everytime its posted.
 
 Written in javascript, to see the results of the tests attempt to create the user, and review the Response section.
 
 > If any of the tests fail, make sure you have the environment selected to "Development" at the top.
 
 ![Tests successful Image](https://i.imgur.com/pxPxa7w.png)
+
+
+## Running your first integration test!
+
+Assuming the application has been ran on VS using IIS, go ahead and run the `GET Users` request. 
+
+> `GET Users` pulls all the users in the database, and takes options to filter.
+
+> `GET User by Id` pulls an individual user by the Id.
+
+> `POST New User` creates a new user in the database.
+
+
+If successful, you will see a `Status: 200` response or a `Status: 204` if no users were found matching the criteria.
+> If unsuccessful, make sure the localhost:{PortNumber} matches what the Postman is trying to reach.
+
+![Status200](https://i.imgur.com/vbSriuD.png)
+
 
