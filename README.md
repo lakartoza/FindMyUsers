@@ -17,6 +17,8 @@ Make sure you have [Visual Studio installed.](https://visualstudio.microsoft.com
 
 Make sure you have .NET Core 2.2 as part of your install (2.1 LTS will work fine too).
 
+Clone the project open the solution and continue from here!
+
 ## 1. Turning on the API Layer
 
 Run the application on Visual Studio using IIS Express. 
