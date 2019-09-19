@@ -17,13 +17,13 @@ namespace FindMyUsers.Controllers
         {
             _context = context;
 
-            if (_context.Users.Count() == 0)
-            {
-                // Create a new User if collection is empty,
-                // which means you can't delete all Users.
-                _context.Users.Add(new User { First = "John", Last = "Beast" });
-                _context.SaveChanges();
-            }
+            //if (_context.Users.Count() == 0)
+            //{
+            //    // Create a new User if collection is empty,
+            //    // which means you can't delete all Users.
+            //    _context.Users.Add(new User { First = "John", Last = "Beast" });
+            //    _context.SaveChanges();
+            //}
         }
 
         // GET: api/Users
