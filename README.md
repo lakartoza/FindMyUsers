@@ -7,6 +7,7 @@ In this project you will find
 * Tests that you can explore
 * How the application works
 
+If you have any trouble getting the application set up, or have any questions, feel free to email me at [lakartoza@gmail.com](). or text me at (415) 866-7145 and I'll do my best to assist.
 
 # How to start the application
 
