@@ -17,20 +17,13 @@ namespace FindMyUsers.Controllers
         {
             _context = context;
 
-            //if (_context.Users.Count() == 0)
-            //{
-            //    // Create a new User if collection is empty,
-            //    // which means you can't delete all Users.
-            //    _context.Users.Add(new User { First = "John", Last = "Beast" });
-            //    _context.SaveChanges();
-            //}
         }
 
         // GET: api/Users
         // GET: api/Users?first=John
         // GET: api/Users?first=John&last=Beast
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> GetUsers(string first, string last)
+        public async Task<ActionResult<IEnumerable<User>>> GetUsers(string first, string last, string interests)
         {
             var users = from u in _context.Users
                         select u;
@@ -43,9 +36,21 @@ namespace FindMyUsers.Controllers
             {
                 users = users.Where((User user) => user.Last.Contains(last));
             }
+            if (!string.IsNullOrEmpty(interests))
+            {
+                users = users.Where((User user) => user.Interests.Contains(interests));
+            }
 
 
-            return await users.ToListAsync();
+            if (users.Any())
+            {
+                return await users.ToListAsync();
+            }
+            else
+            {
+                return NoContent();
+            }
+
         }
 
 

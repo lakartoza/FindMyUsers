@@ -29,7 +29,8 @@ The application allows you to save and delete users to a database, but is withou
 
 ## Checkout the overview documentation
 
-![Postman Web Documentation](https://i.imgur.com/51AKnBL.png)
+Instructions to get here, read below.
+![Postman Web Documentation](https://i.imgur.com/YnOTOoy.png)
 
 1. [Follow this Postman link to be invited into the project's API collections](https://app.getpostman.com/join-team?invite_code=4bb20642af835a89d5f6d32f6eca676b)
 
