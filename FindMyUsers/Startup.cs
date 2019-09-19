@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 using FindMyUsers.Models;
+using FindMyUsers.Repository;
 
 
 namespace FindMyUsers
@@ -32,6 +33,7 @@ namespace FindMyUsers
                 //opt.UseInMemoryDatabase("UserList")
                 opt.UseSqlServer(Configuration.GetConnectionString("UsersContext"))
             );
+            services.AddTransient< IUsersRepository, UsersRepository >();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
