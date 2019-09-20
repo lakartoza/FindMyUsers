@@ -1,0 +1,17 @@
+C:\Users\lakartoza\source\repos\FindMyUsers\Tests.FindMyUsers\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\lakartoza\source\repos\FindMyUsers\Tests.FindMyUsers\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\lakartoza\source\repos\FindMyUsers\Tests.FindMyUsers\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\lakartoza\source\repos\FindMyUsers\Tests.FindMyUsers\bin\Debug\netcoreapp2.1\Tests.FindMyUsers.deps.json
+C:\Users\lakartoza\source\repos\FindMyUsers\Tests.FindMyUsers\bin\Debug\netcoreapp2.1\Tests.FindMyUsers.runtimeconfig.json
+C:\Users\lakartoza\source\repos\FindMyUsers\Tests.FindMyUsers\bin\Debug\netcoreapp2.1\Tests.FindMyUsers.runtimeconfig.dev.json
+C:\Users\lakartoza\source\repos\FindMyUsers\Tests.FindMyUsers\bin\Debug\netcoreapp2.1\Tests.FindMyUsers.dll
+C:\Users\lakartoza\source\repos\FindMyUsers\Tests.FindMyUsers\bin\Debug\netcoreapp2.1\FindMyUsers.dll
+C:\Users\lakartoza\source\repos\FindMyUsers\Tests.FindMyUsers\bin\Debug\netcoreapp2.1\FindMyUsers.pdb
+C:\Users\lakartoza\source\repos\FindMyUsers\Tests.FindMyUsers\obj\Debug\netcoreapp2.1\Tests.FindMyUsers.csprojAssemblyReference.cache
+C:\Users\lakartoza\source\repos\FindMyUsers\Tests.FindMyUsers\obj\Debug\netcoreapp2.1\Tests.FindMyUsers.csproj.CoreCompileInputs.cache
+C:\Users\lakartoza\source\repos\FindMyUsers\Tests.FindMyUsers\obj\Debug\netcoreapp2.1\Tests.FindMyUsers.AssemblyInfoInputs.cache
+C:\Users\lakartoza\source\repos\FindMyUsers\Tests.FindMyUsers\obj\Debug\netcoreapp2.1\Tests.FindMyUsers.AssemblyInfo.cs
+C:\Users\lakartoza\source\repos\FindMyUsers\Tests.FindMyUsers\obj\Debug\netcoreapp2.1\Tests.FindMyUsers.csproj.CopyComplete
+C:\Users\lakartoza\source\repos\FindMyUsers\Tests.FindMyUsers\bin\Debug\netcoreapp2.1\Tests.FindMyUsers.pdb
+C:\Users\lakartoza\source\repos\FindMyUsers\Tests.FindMyUsers\obj\Debug\netcoreapp2.1\Tests.FindMyUsers.dll
+C:\Users\lakartoza\source\repos\FindMyUsers\Tests.FindMyUsers\obj\Debug\netcoreapp2.1\Tests.FindMyUsers.pdb
